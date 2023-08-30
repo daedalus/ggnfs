@@ -1,7 +1,7 @@
 # temporary
 HOST = x86
 CC = gcc
-CFLAGS = -O3 -funroll-loops -finline-functions -ftracer \
+CFLAGS = -O3 -fcommon -funroll-loops -finline-functions -ftracer \
 	 -fomit-frame-pointer -W -Wall -Wconversion -march=prescott -DGMP_BUG
 
 INC = -Iinclude -I../.. -I../../../include

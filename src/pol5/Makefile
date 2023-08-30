@@ -2,7 +2,7 @@ BINDIR=../../bin
 INC=-I.. -I../../include $(LOCALINC)
 LIBFLAGS=$(LOCALLIB)
 LIBS=-lm -lgmp
-CFLAGS2=
+CFLAGS2= -fcommon
 
 # passed in from higher-level directory now
 #CFLAGS = -Wall -O2 -I/usr/local/include

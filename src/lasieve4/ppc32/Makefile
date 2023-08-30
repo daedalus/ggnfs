@@ -13,7 +13,7 @@ SRCFILES=gcd32.c 32bit.h modinv32.c psp.c siever-config32.h lasched.c medsched.c
 
 .PHONY: all bup clean
 
-all: liblasieve.a liblasieveI12.a liblasieveI13.a liblasieveI14.a
+all: liblasieve.a liblasieveI11.a liblasieveI12.a liblasieveI13.a liblasieveI14.a liblasieveI15.a liblasieveI16.a
 
 %.o: %.c siever-config.h
 	$(CC) -c $(CFLAGS) $(INC) $< -o $@

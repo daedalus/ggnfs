@@ -482,7 +482,7 @@ double sTime()
 typedef unsigned long bc_t;
 #define BC_ONES ((~0UL)/0xFFU)
 #define BC_MASK (BC_ONES*0x80U)
-inline void optsieve(uint32_t st1, uchar* i_o, uchar* i_max, size_t j) {
+extern inline void optsieve(uint32_t st1, uchar* i_o, uchar* i_max, size_t j) {
   // align i_o & i_max to 32-byte boundary
   for(;i_o<i_max && ((size_t)i_o & 0x1F);++i_o) {
     if (*i_o >= st1) {

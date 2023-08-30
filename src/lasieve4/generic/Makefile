@@ -7,7 +7,7 @@
 # Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
 # 02111-1307, USA.
 
-CFLAGS= -O3
+CFLAGS= -O3 -fcommon
 
 CC=gcc
 CTANGLE=ctangle

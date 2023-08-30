@@ -12,7 +12,7 @@
 INC=-I. -I./asm
 LIBFLAGS=-L. 
 #CFLAGS=-Os -march=amdfam10 -mtune=amdfam10 -funroll-loops
-CFLAGS=-O3 -march=k8 -mtune=k8 -funroll-loops
+CFLAGS=-O3 -march=k8 -mtune=k8 -funroll-loops -fcommon
 
 .SUFFIXES:
 
